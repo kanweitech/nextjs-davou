@@ -5,20 +5,25 @@ import {
     AiFillLinkedin,
     AiFillYoutube,
     AiFillTwitterCircle,
+    AiFillFacebook,
+    AiFillInstagram,
     
 } from "react-icons/ai";
 import {BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
 import deved from "../public/dev-ed-wave.png";
+import deved1 from "../public/davou/davou.jpg"
 import code from "../public/code.png";
 import design from "../public/design.png";
 import consulting from "../public/consulting.png";
-import web1 from "../public/web1.png";
-import web2 from "../public/web2.png";
-import web3 from "../public/web3.png";
-import web4 from "../public/web4.png";
-import web5 from "../public/web5.png";
-import web6 from "../public/web6.png";
+import pic1 from "../public/davou/ayra-star.jpg";
+import pic2 from "../public/davou/five-alive.jpg";
+import pic3 from "../public/davou/don-royal.jpg";
+import pic4 from "../public/davou/malta.jpg";
+import pic5 from "../public/davou/black-label.jpg";
+import pic6 from "../public/davou/coke.jpg";
+
+
 
 
 
@@ -57,13 +62,13 @@ export default function Home() {
                         <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md;text-xl">A Professional product packs specialist and art director.</p>
                     </div>
                     <div className="flex justify-center gap-16 py-3 text-5xl text-gray-600 dark:text-gray-400">
-                        <AiFillTwitterCircle />
-                        <AiFillLinkedin />
                         <AiFillYoutube />
+                        <AiFillFacebook/>
+                        <AiFillInstagram/>
                     </div>
 
                     <div className="relative mx-auto mt-20 overflow-hidden rounded-full bg-gradient-to-b from-teal-500 w-80 md:h-96 md:w-96">
-                        <Image src={deved} alt="" layout="fill" objectFit="cover" />
+                        <Image src={deved1} alt="" layout="fill" objectFit="cover" />
                     </div>
                 </section>
 
@@ -144,8 +149,8 @@ export default function Home() {
                                     width={"100%"}
                                     height={"100%"}
                                     layout="responsive"
-                                    src={web1}
-                                    alt="web1"
+                                    src={pic1}
+                                    alt="pic1"
                                 />
                             </div>
                             <div className="flex-1 basis-1/3">
@@ -154,8 +159,8 @@ export default function Home() {
                                     width={"100%"}
                                     height={"100%"}
                                     layout="responsive"
-                                    src={web2}
-                                    alt="web2"
+                                    src={pic2}
+                                    alt="pic2"
                                 />
                             </div>
                             <div className="flex-1 basis-1/3">
@@ -164,8 +169,8 @@ export default function Home() {
                                     width={"100%"}
                                     height={"100%"}
                                     layout="responsive"
-                                    src={web3}
-                                    alt="web3"
+                                    src={pic3}
+                                    alt="pic3"
                                 />
                             </div>
                             <div className="flex-1 basis-1/3">
@@ -174,8 +179,8 @@ export default function Home() {
                                     width={"100%"}
                                     height={"100%"}
                                     layout="responsive"
-                                    src={web4}
-                                    alt="web4"
+                                    src={pic4}
+                                    alt="pic4"
                                 />
                             </div>
                             <div className="flex-1 basis-1/3">
@@ -184,8 +189,8 @@ export default function Home() {
                                     width={"100%"}
                                     height={"100%"}
                                     layout="responsive"
-                                    src={web5}
-                                    alt="web5"
+                                    src={pic5}
+                                    alt="pic5"
                                 />
                             </div>
                             <div className="flex-1 basis-1/3">
@@ -194,8 +199,8 @@ export default function Home() {
                                     width={"100%"}
                                     height={"100%"}
                                     layout="responsive"
-                                    src={web6}
-                                    alt="web6"
+                                    src={pic6}
+                                    alt="pic6"
                                 />
                             </div>
                     </div>
