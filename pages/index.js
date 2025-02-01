@@ -73,9 +73,18 @@ export default function Home() {
                 </section>
 
                 <section>
+
+                    {/* Services I offer:
+
+I am product and packs specialist based in Lagos Nigeria with vast experience in different product shots and mock up packs, special pouring shots with different rigs and hand methods. 
+ I have worked with internationally reputable brands among which are; Coca Cola, Guinness, Jonny Walker, Nestle, Cadbury, etc.. 
+
+My Jobs are presently airing both on Tv and social media platforms across Africa. Notably are, Fanta campaign for Pan Africa and the rest of Africa, Nestle Nescafé airing in 7 African countries ( Ghana, Nigeria, Angola, Burkina Faso, Cote Di Voire, Senegal, Guinea).
+Coke Studio Africa featuring Mayokun, Buju, Yung Stunna, Nikita, Kahligraph Jones. These are artists from Nigeria, South Africa and Kenya. */}
                     <div>
                         <h3 className="py-1 text-3xl dark:text-white">Services I offer</h3>
-                        <p className="py-2 leading-8 text-gray-800 text-md dark:text-gray-200">Since the beginning of my journey as a freelance designer and developer, I've done remote work for  <span className="text-teal-500">agencies</span> consulted for <span className="text-teal-500">startups</span> and collaborated with talented people to create digital products for both business and consumer use.
+                        <p className="py-2 leading-8 text-gray-800 text-md dark:text-gray-200">I am product and packs specialist based in Lagos Nigeria with vast experience in different product shots and mock up packs, special pouring shots with different rigs and hand methods. 
+                        I have worked with internationally reputable brands among which are; <span className="text-teal-500">Coca Cola, Guinness, Jonny Walker, Nestle, Cadbury, etc.. </span> consulted for <span className="text-teal-500">startups</span> and collaborated with talented people to create digital products for both business and consumer use.
                             
                         </p>
                         <p className="py-2 leading-8 text-gray-800 text-md dark:text-gray-200">
