@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Image from "next/image";
+import Link from 'next/link'
 import {
     AiFillTwitter,
     AiFillLinkedin,
@@ -62,9 +63,10 @@ export default function Home() {
                         <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md;text-xl">A Professional product packs specialist and art director.</p>
                     </div>
                     <div className="flex justify-center gap-16 py-3 text-5xl text-gray-600 dark:text-gray-400">
-                        <AiFillYoutube />
-                        <AiFillFacebook/>
-                        <AiFillInstagram/>
+                        <Link href="/"><AiFillYoutube /></Link>
+                        <Link href="/"><AiFillFacebook/></Link>
+                        <Link href="/"><AiFillInstagram/></Link>
+                    
                     </div>
 
                     <div className="relative mx-auto mt-20 overflow-hidden rounded-full bg-gradient-to-b from-teal-500 w-80 md:h-96 md:w-96">
